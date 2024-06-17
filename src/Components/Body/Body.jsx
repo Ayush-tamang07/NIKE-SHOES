@@ -1,4 +1,5 @@
 import './Body.css'
+import Card from "../Card/Card.jsx";
 
 function Body(){
     return(
@@ -35,31 +36,9 @@ function Body(){
             </div>
 
             <div className="main">
-                
-                <div className="card">
-                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8fb34fe2-cc91-4865-9fa6-79b3b26b8ac7/pegasus-41-mens-road-running-shoes-7S90QB.png" alt="image" width={380}/>
-                    <div className='justin'>Just In</div>
-                    <div className='shoesName'>Nike Pegasus 41</div>
-                    <div className='shoesType'>Men's Road Running Shoes</div>
-                    <div className='colors'>8 Colors</div>
-                    <div>$140</div>
-                </div>
-                <div className="card">
-                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8fb34fe2-cc91-4865-9fa6-79b3b26b8ac7/pegasus-41-mens-road-running-shoes-7S90QB.png" alt="image" width={380}/>
-                    <div className='justin'>Just In</div>
-                    <div className='shoesName'>Nike Pegasus 41</div>
-                    <div className='shoesType'>Men's Road Running Shoes</div>
-                    <div className='colors'>8 Colors</div>
-                    <div>$140</div>
-                </div>
-                <div className="card">
-                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8fb34fe2-cc91-4865-9fa6-79b3b26b8ac7/pegasus-41-mens-road-running-shoes-7S90QB.png" alt="image" width={380}/>
-                    <div className='justin'>Just In</div>
-                    <div className='shoesName'>Nike Pegasus 41</div>
-                    <div className='shoesType'>Men's Road Running Shoes</div>
-                    <div className='colors'>8 Colors</div>
-                    <div>$140</div>
-                </div>
+                <Card/>
+                <Card/>
+                <Card/>
             </div>
         </div>
         </>
