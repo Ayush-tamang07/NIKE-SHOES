@@ -1,0 +1,79 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    /* background-color: black; */
+    /* color: Black; */
+    height: 60px;
+  }
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 19rem;
+
+  }
+  
+  ul li {
+    margin-right: 20px;
+  }
+  
+  ul li:last-child {
+    margin-right: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+    font-size: 21px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-left: 25rem;
+  }
+  .search{
+    width: 9rem;
+    /* outline: none; */
+    /* border: none; */
+    border-radius: 10rem;
+    background-color: #f0f0f0; 
+  }
+  
+  .search-container input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .search-icon {
+    margin-right: .5rem;
+  }
+  
+  .cart-icon {
+    margin-right: 2rem;
+    font-size: 1.5rem;
+  }
+  .nike{
+    margin-left:2rem ;
+  }
+
+  /* Header.css */
+
+/* Other styles for header */
+input[type="text"] {
+    padding: 5px 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none; /* Remove outline on focus */
+  }
+  
+  input[type="text"]::placeholder {
+    color: #999; /* Placeholder text color */
+  }
+  
+  

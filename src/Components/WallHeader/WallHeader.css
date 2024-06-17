@@ -1,0 +1,39 @@
+*{
+    background-color: white;
+}
+.wall-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 1rem;
+}
+
+.title h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.filter-options {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 3rem;
+}
+
+.filter-options a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin-right: .5rem;
+
+}
+
+.filter-options img {
+    display: inline-block;
+}
+
+.filter-options .fa-chevron-down {
+    margin-left: 5px;
+}

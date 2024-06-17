@@ -1,0 +1,25 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: #f7f7f7;
+}
+.offer{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: 12px;
+    font-weight: bold;
+}
+.banner a{
+    text-decoration: underline;
+    
+}
+.arrow{
+    cursor: pointer;
+}
+hr {
+    border: none;
+    border-top: .5px solid rgba(0, 0, 0, 0.1); /* Adjust alpha (0.1) for lighter color */
+    /* margin: 10px 0;  */
+}
