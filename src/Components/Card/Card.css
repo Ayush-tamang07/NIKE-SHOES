@@ -3,3 +3,10 @@
     flex-direction: row;
     gap: 1rem;
 }
+a{
+    text-decoration: none;
+}
+h3{
+    color: black;
+    margin-top: 1rem;
+}

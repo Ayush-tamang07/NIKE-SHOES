@@ -1,0 +1,48 @@
+.footer{
+    padding: 3rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px 0;
+    /* background-color: black; */
+}
+a{
+    color: #999;
+    line-height: 2rem;
+    font-size: 14px;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/* .resources{
+    background-color: red;
+}
+.help{
+    background-color: green;
+}
+.company{
+    background-color: blue;
+}
+.pro-disc{
+    background-color: yellow;
+} */
+.location{
+    /* background-color: aqua; */
+    display: flex;
+    gap: 5px;
+}
+.globe{
+    margin-top: .6rem;
+    font-size: 1rem;
+}
+.copyright-information{
+    width: 75%;
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-around;
+}
+h3{
+    margin-bottom: 2rem;
+}

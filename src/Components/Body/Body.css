@@ -13,11 +13,13 @@
     display: flex;
     flex-direction: column;
     line-height: 2rem;
+    margin-top: 3rem;
 }
 
 a {
     font-size: 1rem;
     font-weight: bold;
+    color: black;
 }
 
 h2 {
@@ -121,6 +123,7 @@ h3 {
   .toogle{
     display: flex;
     align-items: center;
-    margin-left: 2.75rem;
+    margin-left: .1rem;
+    margin-top: -2rem;
   }
 /* toogle */
