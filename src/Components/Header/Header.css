@@ -1,79 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    /* background-color: black; */
-    /* color: Black; */
-    height: 60px;
-  }
-  
-  ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin-left: 19rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  height: 60px;
+}
 
-  }
-  
-  ul li {
-    margin-right: 20px;
-  }
-  
-  ul li:last-child {
-    margin-right: 0;
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
-    /* font-weight: bold; */
-    font-size: 21px;
-  }
-  
-  .search-container {
-    display: flex;
-    align-items: center;
-    margin-left: 25rem;
-  }
-  .search{
-    width: 9rem;
-    /* outline: none; */
-    /* border: none; */
-    border-radius: 10rem;
-    background-color: #f0f0f0; 
-  }
-  
-  .search-container input {
-    margin-right: 10px;
-    padding: 5px;
-  }
-  
-  .search-icon {
-    margin-right: .5rem;
-  }
-  
-  .cart-icon {
-    margin-right: 2rem;
-    font-size: 1.5rem;
-  }
-  .nike{
-    margin-left:2rem ;
-  }
+.nike {
+  margin-left: 2rem;
+}
 
-  /* Header.css */
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  justify-content: center;
+}
 
-/* Other styles for header */
-input[type="text"] {
-    padding: 5px 10px; /* Adjust padding as needed */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    outline: none; /* Remove outline on focus */
-  }
-  
-  input[type="text"]::placeholder {
-    color: #999; /* Placeholder text color */
-  }
-  
-  
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  transition: color 0.3s;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: -4rem;
+}
+
+.search-container input {
+  width:70%;
+  padding: 10px 10px 10px 40px;
+  border: none;
+  border-radius: 16px;
+  font-size: 16px;
+  background-color: #f7f7f7;
+}
+
+.search-container input::placeholder {
+  color: #999;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  color: black;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-right: 1.75rem;
+}
+
+.icons .cart-icon {
+  margin-left: 20px;
+  font-size: 1.23rem;
+  color: black;
+  transition: color 0.3s;
+  cursor: pointer;
+}
