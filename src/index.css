@@ -4,3 +4,6 @@ body{
   background-color: rgb(247, 247, 247);
   font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
